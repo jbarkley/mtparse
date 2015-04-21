@@ -1,0 +1,45 @@
+Project: mtparse
+
+Website: http://github.com/ruby-ovf/ovfparse
+License: GPLv3
+Mailing list: none
+Source Code: git://github.com/ruby-ovf/ovfparse.git
+
+== Requirements
+---------------
+ - ruby
+ - net/ftp
+ - net/http
+ - net/https
+ - nokogiri xml parser (native gem)
+
+== Install
+----------
+From inside your ovfparse directory:
+	$ rake gem
+	$ cd pkg
+	$ gem install mtparse[-version]
+
+Or from RubyGems:	
+	$ gem install mtparse 
+
+=== Example1
+------------
+coming soon
+
+=== Example2
+------------
+coming soon
+
+
+== Useful tips
+-----------
+'method_missing' is implemented to return xml nodes of the section that is named like the missing method.
+For example, if your xml has a section called <FirstName>some data</FirstName> you can simply 
+request the object through any of the following methods:
+
+ node = package.first_name()
+ node = package.first_name
+ node = package.FirstName()
+ node = package.FirstName
+

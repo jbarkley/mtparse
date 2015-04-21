@@ -1,0 +1,15 @@
+Contributing to ovfparse
+========================
+
+License
+-------
+
+The project is licensed under GPLv3, so any contribution will be made
+under this license. Make sure you read the LICENSE file, in case you have
+doubts about the license.
+
+
+Code/Patches
+------------
+
+mtparse uses the normal github workflow. If you would like to contribute code to mtparse, fork this project, code and test your changes and then send us a pull request. Help with git can be found here: http://gitref.org/
